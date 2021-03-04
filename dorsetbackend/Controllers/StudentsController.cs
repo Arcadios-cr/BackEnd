@@ -28,10 +28,10 @@ namespace TestApplication.Controllers
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetStudents()
         {
             var Student = from student in _context.student
-                          join student_info in _context.student_info on student.student_id equals student_info.student_id
+                          join student_info in _context.student_info on student.id equals student_info.student_id
                           select new StudentDTO
                           {
-                              student_id = student.student_id,
+                              student_id = student.id,
                               age = student.age,
                               firstName = student.firstName,
                               lastName = student.lastName,
@@ -48,10 +48,10 @@ namespace TestApplication.Controllers
         public ActionResult<StudentDTO> GetStudents_byId(int id)
         {
             var Student = from student in _context.student
-                          join student_info in _context.student_info on student.student_id equals student_info.student_id
+                          join student_info in _context.student_info on student.id equals student_info.student_id
                           select new StudentDTO
                           {
-                              student_id = student.student_id,
+                              student_id = student.id,
                               age = student.age,
                               firstName = student.firstName,
                               lastName = student.lastName,
@@ -70,7 +70,7 @@ namespace TestApplication.Controllers
             return Student_by_id;
         }
         [HttpPost]
-        public async Task<ActionResult<StudentDTO>> Add_students(AddStudent studentDTO)
+        public async Task<ActionResult> Add_students(AddStudent studentDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -89,12 +89,12 @@ namespace TestApplication.Controllers
 
             var student_info = new Student_info()
             {
+                student_id = student.id,
                 country = studentDTO.country,
                 adress = studentDTO.adress,
                 grade = studentDTO.grade
             };
-            await _context.AddAsync(student_info);
-
+            await _context.student_info.AddAsync(student_info);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("Getstudents", new { id = student.id }, studentDTO);
