@@ -1057,11 +1057,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilias\\Desktop\\TestApplication-master\\TestApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj",
       "projectName": "TestApplication",
-      "projectPath": "C:\\Users\\Ilias\\Desktop\\TestApplication-master\\TestApplication.csproj",
+      "projectPath": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj",
       "packagesPath": "C:\\Users\\Ilias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilias\\Desktop\\TestApplication-master\\obj\\",
+      "outputPath": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ilias\\AppData\\Roaming\\NuGet\\NuGet.Config",
