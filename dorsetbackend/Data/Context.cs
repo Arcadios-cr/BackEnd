@@ -10,7 +10,7 @@ namespace TestApplication.Data
         public DbSet<Book> Book {get; set;}
         public DbSet<Book_description> Book_Description {get; set;}
         public DbSet<Student> student { get; set; }
-        public DbSet<Student_info>student_info { get; set; }
+        public DbSet<Student_info> student_info { get; set; }
 
     }
 }

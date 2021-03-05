@@ -10,7 +10,6 @@ namespace TestApplication.Models
     {
         [Key]
         public int id { get; set; }
-        public int student_id { get; set; }
         public int age { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }

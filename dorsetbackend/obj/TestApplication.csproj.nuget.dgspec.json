@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj": {}
+    "C:\\Users\\ahaque\\Documents\\College\\BackEnd\\dorsetbackend\\TestApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj": {
+    "C:\\Users\\ahaque\\Documents\\College\\BackEnd\\dorsetbackend\\TestApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ahaque\\Documents\\College\\BackEnd\\dorsetbackend\\TestApplication.csproj",
         "projectName": "TestApplication",
-        "projectPath": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\TestApplication.csproj",
-        "packagesPath": "C:\\Users\\Ilias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilias\\Desktop\\BackEnd\\dorsetbackend\\obj\\",
+        "projectPath": "C:\\Users\\ahaque\\Documents\\College\\BackEnd\\dorsetbackend\\TestApplication.csproj",
+        "packagesPath": "C:\\Users\\ahaque\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahaque\\Documents\\College\\BackEnd\\dorsetbackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ilias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahaque\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
